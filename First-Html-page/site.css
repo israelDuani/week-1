@@ -1,0 +1,133 @@
+  
+h1 {
+    color: #66BFBF;
+    font-family: "Sacramento", sans-serif;
+  }
+ 
+h2 {
+    color: #66BFBF;
+}
+
+h1,h2,h4 {
+    text-align: center;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h6{
+    color: white;
+    margin-left: 5vw;
+}
+
+.first_cloud{
+    margin-right: 300px;
+    margin-top: 40px;
+}
+
+.second_cloud{
+    margin-left: 250px;
+    margin-bottom: 300px;
+}
+
+.header_section {
+    width: 100vw;
+    height: 70vh;
+    background-color: #E4F9F5;
+    background-image: url("asset/mountain.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.header_background {
+    width: 100%;
+    height: 100%;
+}
+
+.header_title {
+    text-align: center;
+    font-family: "Sacramento", sans-serif;
+    font-size: 60px;
+}
+
+.second_section {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.programming_avatar{
+    border-radius: 50%;
+    width: 10vw;
+    background-color: #66BFBF;
+}
+
+.skill_section{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+.skill_item{
+    display:grid;
+    width: 60%;
+    height: 20vh;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+.grid_type_one{
+    grid-template-columns: 1fr 3fr;
+}
+
+.grid_type_two{
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid_image{
+    width: 10vw;
+}
+
+
+.contact_section{
+    width: 40vw;
+    height: 40vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.contact_content{
+    text-align: center;
+}
+
+.contact_btn{
+    border: none;
+    background-color: #11cdd4;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.contact_btn:hover{
+    background-color: #30e3cb;
+}
+
+.footer_section{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10vh;
+    padding-left: 40vw;
+    background-color: #66BFBF;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
